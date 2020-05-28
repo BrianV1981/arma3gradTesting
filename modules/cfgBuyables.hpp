@@ -3,11 +3,10 @@ class CfgGradBuymenu {
     trackingTag = "GRAD_menuTracking";
 
 	#include "mercenaryStoreMenu_1.hpp"
-	#include "mercenaryStoreMenu_2.hpp"
 	#include "vehicleStoreMenu.hpp"
 	#include "weaponStoreMenu.hpp"
 	#include "itemStoreMenu.hpp"
 	#include "fortificationStoreMenu_1.hpp"
-	#include "fortificationStoreMenu_2.hpp"
 	#include "marineStoreMenu.hpp"
+	#include "scriptsStoreMenu.hpp"
 };

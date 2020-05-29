@@ -28,6 +28,13 @@
 				code = [player,"scripts\moneyMenuAddFundsPlayers.sqf"] call BIS_fnc_execVM;
             };
 			class C_Offroad_02_unarmed_F {
+                displayName = "execute moneyMenuSetStorage.sqf";
+                description = "execute moneyMenuSetStorage.sqf";
+                price = 0;
+                stock = 10000;
+				code = [player,"scripts\moneyMenuSetStorage.sqf"] call BIS_fnc_execVM;
+            };
+			class B_Truck_01_mover_F {
                 displayName = "execute moneyMenuAddFundsStorage.sqf";
                 description = "execute moneyMenuAddFundsStorage.sqf";
                 price = 0;
@@ -47,6 +54,13 @@
                 price = 0;
                 stock = 10000;
 				code = [] call grad_persistence_fnc_loadMission;
+            };
+			class B_Truck_01_transport_F {
+                displayName = ["persistent_testing_003"] call grad_persistence_fnc_clearMissionData;
+                description = ["persistent_testing_003"] call grad_persistence_fnc_clearMissionData;
+                price = 0;
+                stock = 10000;
+				code = ["persistent_testing_003"] call grad_persistence_fnc_clearMissionData;
             };
         };
 };

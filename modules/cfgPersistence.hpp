@@ -11,7 +11,7 @@ class CfgGradPersistence {
 	
     savePlayerInventory = 0;
     savePlayerDamage = 0;
-    savePlayerPosition = 0;
+    savePlayerPosition = 1;
     savePlayerMoney = 1;
 	
     saveMarkers = 0;
